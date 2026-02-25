@@ -5,4 +5,5 @@ x <- rnorm(n)
 y <- 1.5 * x + rnorm(n, mean = 0, sd = 5)
 df <- data.frame(dose = n, outcome = y)
 
-# track this
+# 3. Plotting
+plot(df$dose, df$outcome)
