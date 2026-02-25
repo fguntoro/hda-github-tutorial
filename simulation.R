@@ -8,3 +8,6 @@ df <- data.frame(dose = n, outcome = y)
 # 2. Univariate Analysis
 model <- lm(outcome ~ dose, data = df)
 summary(model)
+
+# 3. Plotting
+plot(df$dose, df$outcome)
